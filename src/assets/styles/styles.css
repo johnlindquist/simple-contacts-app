@@ -1,0 +1,91 @@
+html, body { width: 100%; height: 100%; background-color: #CED9DE;}
+* { outline: none; }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background-color: white;
+    min-width: 600px;
+    max-width: 800px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.contact-title-holder {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.avatar, .avatar-placeholder {
+    width: 83px;
+}
+
+.contact-title-holder .title,
+.contact-title-holder .subtitle {
+    margin: 0;
+    line-height: 1.1;
+}
+
+.contact-details, .contact-details-new {
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E9EFF2;
+    padding: 10px;
+}
+
+
+.btn-file {
+    font-size: 10px;
+    padding: 0 10px;
+}
+
+.dl-horizontal dd {
+    margin-left: 0;
+    padding-left: 180px;
+}
+
+.dl-horizontal dt {
+    padding-top: 20px;
+}
+
+.dl-horizontal dt:first-child {
+    padding-top: 0;
+}
+
+.dl-horizontal dt:first-child + dd {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: none;
+}
+
+.dl-horizontal dt + dd {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #dddddd;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
